@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="/img/people01.jpg"
+        alt="Profile Picture"
+        data-testid="profilePicture"
+      />
+      <h2 data-testid="fullName">Michael Oladele</h2>
+      <h3 data-testid="jobTitle">Frontend Developer</h3>
+      <p data-testid="shortBio">
+        A passionate frontend developer focused on building user-friendly web
+        experiences and growing with cutting-edge technologies.
+      </p>
+      <p data-testid="currentLocation">Lagos,Nigeria</p>
+      <p data-testid="emailAddress">oladelemichael587@gmail.com</p>
+      <div data-testid="socialLinks">
+        <a href="https://github.com/MickyDev1" target="_blank">GitHub</a>
+        <a href="https://x.com/MickyDev_1" target="_blank">Twitter</a>
+        <a
+          href="https://www.linkedin.com/in/michael-oladele-991712250/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <!-- <a href="https://twitter.com/mickydev" target="_blank">Twitter</a> -->
+      </div>
+      <div class="time" data-testid="currentTimelocal"></div>
+    </div>
+
+    <script src="script.js"></script>
+    </script>
+  </body>
+</html>
