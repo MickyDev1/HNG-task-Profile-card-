@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profile Card</title>
+    <title> Michael's Profile Card</title>
     <link rel="stylesheet" href="style.css">
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
   </head>
   <body>
     <div class="card">
@@ -20,17 +24,35 @@
         experiences and growing with cutting-edge technologies.
       </p>
       <p data-testid="currentLocation">Lagos,Nigeria</p>
-      <p data-testid="emailAddress">oladelemichael587@gmail.com</p>
-      <div data-testid="socialLinks">
-        <a href="https://github.com/MickyDev1" target="_blank">GitHub</a>
-        <a href="https://x.com/MickyDev_1" target="_blank">Twitter</a>
-        <a href="https://medium.com/@mickydev" target="_blank">Medium</a>
+
+      <div class="email">
+        <i class="bx bxs-envelope" style="color: #ffffff"></i>
+        <a href="mailto:oladelemichael587@gmail.com" data-testid="emailAddress"
+          >oladelemichael587@gmail.com</a
+        >
+      </div>
+
+      <div class="socials" data-testid="socialLinks">
         <a
           href="https://www.linkedin.com/in/michael-oladele-991712250/"
           target="_blank"
-          >LinkedIn</a
-        >
-        <!-- <a href="https://twitter.com/mickydev" target="_blank">Twitter</a> -->
+          rel="noopener noreferrer"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+
+        <a
+          href="https://github.com/MickyDev1"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="bx bxl-github"></i
+        ></a>
+
+        <a
+          href="https://x.com/MickyDev_1"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="bx bxl-twitter"></i
+        ></a>
       </div>
       <div class="time" data-testid="currentTimelocal"></div>
     </div>
